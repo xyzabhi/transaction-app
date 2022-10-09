@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "transaction-app",
+    "slug": "transaction-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "transaction-app"
+}
