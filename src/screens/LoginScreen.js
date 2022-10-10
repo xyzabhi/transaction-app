@@ -57,7 +57,6 @@ const styles = StyleSheet.create({
     borderColor: "#dadada",
     borderWidth: 1.5,
     fontWeight: "bold",
-    selec,
   },
   button: {
     width: 230,
