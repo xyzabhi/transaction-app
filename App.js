@@ -6,14 +6,9 @@ import LoginScreen from "./src/screens/LoginScreen";
 import TransactionScreen from "./src/screens/TransactionScreen";
 
 export default function App() {
-  return <LoginScreen />;
+  return <HomeScreen />;
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
+  container: {},
 });

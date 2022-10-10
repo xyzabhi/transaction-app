@@ -3,11 +3,10 @@ import transactions from "../../data/transactionData";
 import React from "react";
 import { StyleSheet, Text, View, ScrollView } from "react-native";
 import ListItem from "../components/ListItem";
-
+const allListItems = transactions.map((item) => {
+  return <ListItem item={item} />;
+});
 export default function TransactionScreen() {
-  const allListItems = transactions.map((item) => {
-    return <ListItem item={item} />;
-  });
   return (
     <View>
       <Text style={styles.header}>Transaction History</Text>
