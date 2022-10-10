@@ -54,9 +54,9 @@ const styles = StyleSheet.create({
     width: "80%",
     marginBottom: 30,
     borderRadius: 5,
-    borderColor: "#dadada",
+    borderColor: "#000",
     borderWidth: 1.5,
-    fontWeight: "bold",
+    // fontWeight: "bold",
   },
   button: {
     width: 230,
